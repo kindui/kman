@@ -1,0 +1,33 @@
+{
+  "name": "kman",
+  "version": "0.0.12",
+  "description": "A very light web building system. Config it in config.json.",
+  "main": "bin.js",
+  "bin": {
+    "kman": "bin.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "halfthink@163.com",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/humanhuang/kman"
+  },
+  "keywords": [
+    "build system",
+    "build",
+    "web",
+    "config"
+  ],
+  "homepage": "https://github.com/humanhuang/kman",
+  "dependencies": {
+    "ws": "^0.7.1",
+    "colorful": "^2.1.0",
+    "date-utils": "^1.2.16",
+    "url": "^0.10.2",
+    "express": "^4.11.2",
+    "commander": "^2.6.0"
+  }
+}

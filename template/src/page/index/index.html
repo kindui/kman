@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>kman</title>
+    <link href="../common/base.css" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+    <script type="text/javascript" src="../../common/package.js"></script>
+    <script>
+        require(['common/lib/jquery'], function ($) {
+            $(function () {
+                require(['page/index/main'], function (Main) {
+                    Main.init();
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+
+<p id="index"></p>
+
+</body>
+</html>
